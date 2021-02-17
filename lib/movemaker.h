@@ -3,4 +3,8 @@ namespace xo {
 		// to_move
 		// board
 	}
+	
+	void set_player() {
+		// to_move
+	}
 }
