@@ -3,6 +3,6 @@ namespace xo {
 		// get input and return
 		
 		
-		std::cout << "hi";
+		std::cout << "hi!";
 	}
 }
