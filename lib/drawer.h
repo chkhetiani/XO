@@ -4,6 +4,7 @@ namespace xo {
 		// board_length
 		
 		std::cout << board[0] << " " << board[1] << " " << board[2] << std::endl;
-		std::cout << "dafa3";
+		std::cout << board[2] << " " << board[3] << " " << board[4] << std::endl;
+		std::cout << "dafa4";
 	}
 }
