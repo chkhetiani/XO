@@ -1,6 +1,6 @@
 namespace xo {
 	void make_move(int index) {
-		board[index] = to_move;
+		board[index-1] = to_move;
 		// to_move
 		// board
 	}
