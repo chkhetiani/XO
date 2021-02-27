@@ -1,4 +1,5 @@
 #include <iostream>
+#include "windows.h."
 #include "lib/data.h"
 #include "lib/drawer.h"
 #include "lib/inputgetter.h"
@@ -12,6 +13,7 @@ int main() {
 		system("cls");
 		xo::draw();
 		int index = xo::get_input();
+		system("cls");
 		xo::make_move(index);
 		xo::check_win();
 	}
