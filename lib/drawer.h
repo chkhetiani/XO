@@ -10,5 +10,5 @@ namespace xo {
 		}
 		std::cout << "\n\n";
 	}
-	// aq memgoni asaxsneli araperi araa. ubralod for-it gamomyavs yvela masivis wevris
+	// aq memgoni asaxsneli araperi araa. ubralod for-it gamomyavs yvela masivis wevri
 }
