@@ -9,10 +9,10 @@ namespace xo {
 	void set_player() {
 		// to_move
 		if(to_move=='o'){
-			to_move='X';
+			to_move='x';
 		}
 		else{
-			to_move='0';
+			to_move='o';
 		}
 	}
 }
