@@ -3,7 +3,7 @@ namespace xo {
 		// get input and return
 		int lol;
 		
-		std::cout << "chose your move " << to_move << ": ";
+		std::cout << "chose your move " << xo::to_move << ": ";
 		std::cin >> lol;
 		
 		return lol;
