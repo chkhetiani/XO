@@ -1,11 +1,11 @@
 namespace xo {
 	int get_input() {
 		// get input and return
-		int x;
+		int lol;
 		
 		std::cout << "chose your move: ";
-		std::cin >> x;
+		std::cin >> lol;
 		
-		return x;
+		return lol;
 	}
 }
