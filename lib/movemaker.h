@@ -22,4 +22,7 @@ namespace xo {
 		}	
 		
 	}
+	// aq ukve upro rtuli iyo. mtavari problema iyo pirvel svlashi, romelic yovelitvis X aris.
+	// gadavwyvite rom shemomeyvana d cvladi, romelic moimatebs mxolod pirveli svlis shemdeg da...
+	// ...da sheasrulebs shemdegi svlebis pirobas, rom upro advili yopiliyo.
 }
