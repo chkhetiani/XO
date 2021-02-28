@@ -1,5 +1,5 @@
 namespace xo {
-	bool check_win() {
+	bool check_win(){
 		if(board[0] ==  'X' && board[1] == 'X' && board[2] == 'X'){
 			has_finished = true;
 			result = "X Won";
