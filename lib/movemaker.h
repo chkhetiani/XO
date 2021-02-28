@@ -7,16 +7,16 @@ namespace xo {
 
 		if(d == 1 && to_move == 'X'){
 			to_move = 'O';
-			std::cout << "you are playing with O!";
+			std::cout << "you are playing now with O!";
 			Sleep(2000);
 		}
 		else if(d == 1 && to_move == 'O'){
 			to_move = 'X';
-			std::cout << "you are playing with X!";
+			std::cout << "you are playing now with X!";
 			Sleep(2000);
 		}
 		else{
-			std::cout << "you are playing with X!";
+			std::cout << "you are playing now with X!";
 			d++;
 			Sleep(2000);
 		}	
