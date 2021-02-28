@@ -4,7 +4,7 @@ namespace xo {
 					'-','-','-',
 					'-','-','-'};
 	// ----------------------
-	char to_move = 'X';
+	char to_move = 'O';
 	bool has_finished = false;
 	std::string result;
 }
