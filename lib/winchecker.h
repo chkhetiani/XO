@@ -20,11 +20,11 @@ namespace xo {
 			has_finished = true;
 			result = "X Won";
 			
-		}else if(board[2] ==  'X' && board[5] == 'X' && board[9] == 'X'){			
+		}else if(board[2] == 'X' && board[5] == 'X' && board[8] == 'X'){			
 			has_finished = true;
 			result = "X Won";
 
-		}else if(board[0] ==  'X' && board[4] == 'X' && board[8] == 'X'){			
+		}else if(board[0] == 'X' && board[4] == 'X' && board[8] == 'X'){			
 			has_finished = true;
 			result = "X Won";
 		
@@ -52,7 +52,7 @@ namespace xo {
 			has_finished = true;
 			result = "O Won";
 
-		}else if(board[2] ==  'O' && board[5] == 'O' && board[9] == 'O'){			
+		}else if(board[2] ==  'O' && board[5] == 'O' && board[8] == 'O'){			
 			has_finished = true;
 			result = "O Won";
 			
