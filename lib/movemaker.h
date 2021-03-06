@@ -8,11 +8,11 @@ namespace xo {
 	
 	void set_player() {
 		// to_move
-		if(to_move=='o'){
-			to_move='x';
+		if(to_move=='O'){
+			to_move='X';
 		}
 		else{
-			to_move='o';
+			to_move='O';
 		}
 	}
 }
