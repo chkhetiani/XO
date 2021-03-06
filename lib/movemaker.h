@@ -15,7 +15,7 @@ namespace xo {
 		}
 	
 		else{
-			to_move='O'
+			to_move='O';
 		}
 	}
 }
