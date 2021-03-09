@@ -3,12 +3,12 @@ namespace xo {
 				 int choise;
 
     if (turn == 'X') {
-        cout << "\tPLAYER 1[X] TURN :";
-        cin >> choise;
+        std::cout << "\tPLAYER 1[X] TURN :";
+        std::cin >> choise;
     }
     if (turn == 'O') {
-        cout << "\tPLAYER 2[O] TURN :";
-        cin >> choise;
+        std::cout << "\tPLAYER 2[O] TURN :";
+        std::cin >> choise;
     }
     switch (choise)
     {
@@ -22,7 +22,7 @@ namespace xo {
     case 8: row = 2; column = 1; break;
     case 9: row = 2; column = 2; break;
     default:
-        cout << "ra..?" << endl;
+        std::cout << "Ra...?" << std::endl;
         break;
     }
     if (turn == 'X' && board[row][column] != 'X' && board[row][column] != 'O') {
@@ -34,7 +34,7 @@ namespace xo {
         turn = 'X';
     }
     else {
-        cout << "ukve shevsebulia :(" << endl;
+        cout << "Ukve Shevsebulia :(" << endl;
         player_turn();
     }
     display_board();
