@@ -1,5 +1,9 @@
 namespace xo {
 	int get_input() {
-		// get input and return
+		
+		int index;
+		std::cout<<"enter chosen index";
+		std::cin>> x;
+		return x;
 	}
 }
