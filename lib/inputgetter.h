@@ -3,7 +3,7 @@ namespace xo {
 		
 		int index;
 		std::cout<<"enter chosen index";
-		std::cin>> x;
+		std::cin>>x;
 		return x;
 	}
 }
