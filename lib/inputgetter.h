@@ -1,13 +1,20 @@
 namespace xo {
 	int get_input() {
 		
+		
+		//int lo;
+		//std::cout<<"Your Turn:  ";
+	//	std::cin>>lo;
+		//return lo;
+		
 		int choise;
 		if (to_move == 'X'){
-			cout << "Tplayer 1[X] TURN :";
-			cin >> choise;
+			std::cout<< "Tplayer 1[X] TURN :";
+			std::cin >> choise;
 		}
 		if (to_move == 'O') {
-			cout << "Tplayer 2[0] TURN :";
+			std::cout<< "Tplayer 2[0] TURN :";
+			std::cin>>choise;
 		}
 		return choise;
 	}
